@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq.Expressions;
 
 namespace SpecificationPlayground.FluentInterface
 {
@@ -128,9 +123,9 @@ namespace SpecificationPlayground.FluentInterface
     }
 
 
-    class Program
+    class ProgramFluentInterface
     {
-        static void Main(string[] args)
+        static void MainProgramFluentInterface()
         {
             // Lista de productos de ejemplo
             var productos = new List<Producto>

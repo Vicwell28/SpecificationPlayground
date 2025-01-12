@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq.Expressions;
 
 namespace SpecificationPlayground.LINQexpressions
 {
@@ -255,9 +250,9 @@ namespace SpecificationPlayground.LINQexpressions
         }
     }
 
-    class Program
+    class ProgramLINQexpressions
     {
-        static void Main(string[] args)
+        static void MainProgramLINQexpressions()
         {
             // Lista de productos de ejemplo
             var productos = new List<Producto>
@@ -291,5 +286,4 @@ namespace SpecificationPlayground.LINQexpressions
             }
         }
     }
-
 }

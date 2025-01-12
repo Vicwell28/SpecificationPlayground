@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SpecificationPlayground.CompositeClasses
+﻿namespace SpecificationPlayground.CompositeClasses
 {
     // Specification.cs
     public interface ISpecification<T>
@@ -106,9 +100,9 @@ namespace SpecificationPlayground.CompositeClasses
         }
     }
 
-    class Program
+    class ProgramCompositeClasses
     {
-        static void Main(string[] args)
+        static void MainProgramCompositeClasses()
         {
             // Lista de productos de ejemplo
             var productos = new List<Producto>
